@@ -54,7 +54,7 @@ body{
 
 /*SHOWCASE*/
 #showcase{
-	background-image: url("https://citelighter-cards.s3.amazonaws.com/p17d98f5st15qd1tsv1m9c1sbu11uo0_64674.jpg");
+	background-image: url("https://salemnet.vo.llnwd.net/media/cms/CW/Couples/singles/36975-manworshipping-worship-worshiping-thinkstock.1200w.tn.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	border-bottom: 1px solid #56a79a; 
@@ -76,15 +76,14 @@ body{
 	margin:0;
 }
 
-
 #showcase .showcase-content{
 	background: #333;
 	color: #fff;
 	border-radius: 90px;
 	padding: 40px;
 	opacity: 0.9;
+	margin-top: -200px;
 }
-
 
 /*FEATURES*/
 #features h2{
@@ -105,13 +104,13 @@ body{
 
 }
 
-
 /*INFO*/
 #info {
 	background-image: url("https://hdwallsource.com/img/2014/4/free-background-wallpaper-22918-23554-hd-wallpapers.jpg");
 	background-repeat: no-repeat;
 	background-color: #333;
 	color: white;
+	padding: 40px 0px;
 }
 
 #info h2{
@@ -159,12 +158,32 @@ body{
 	border: 0;
 }
 
+#socialMedia{
+	padding-top: 23px;
+	font-size: 46px;
+	margin-bottom: 24px;
+	padding-right: 50px;
+}
+
+.fa-facebook-square{
+	color: #3b5998;
+}
+
+.fa-youtube {
+	color: #bb0000;
+	margin-left: 23px;
+}
+
+.fa-instagram {
+	color: #fb3958;
+	margin-left: 23px;
+}
+
 
 /*FOOTER*/
 #main-footer{
 	background-color: #56a79a;
 	color: white;
-
 }
 
 /*PAGE*/
@@ -218,6 +237,11 @@ body{
 
 .contact form label {
 	text-transform: uppercase;
+}
+
+textarea{
+	width: 50%;
+	height: 300px;
 }
 
 /*MEDIA QUERIES*/
